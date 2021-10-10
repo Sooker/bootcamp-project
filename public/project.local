@@ -1,0 +1,13 @@
+server {
+        root /home/bejenari/bootcamp-project/public;
+        index index.php index.html index.htm index.nginx-debian.html;
+        server_name project.local;
+        access_log /var/log/nginx/project.local.access.log;
+        error_log /var/log/nginx/project.local.error.log;
+        location / {
+                try_files $uri $uri/ /index.php$is_args$args;
+        }
+        charset utf-8;
+        large_client_header_buffers 8 64k;
+        client_max_body_size 20M;
+}
