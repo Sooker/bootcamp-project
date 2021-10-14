@@ -1,8 +1,12 @@
 <!DOCTYPE html>
 <html lang="ru">
-<meta charset="UTF-8"
-<head>
+    <head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
 <title>CV Bejneari Daniil</title>
+<link rel="stylesheet" href="style.css"> 
 <body style="margin-bottom: 400px;">
   <header>
     <h1>CV / Portofolio</h1>
@@ -22,130 +26,144 @@
     </nav>
   </header>
   <main>
-    <section id="about">
-      <h2>About</h2>
-      <img width="280" height="300" src="https://sun9-16.userapi.com/impg/dTiRuK2d2Km-1OssvmjZOtT58vwC7FlfXBcWiA/Jot2yeEMbO8.jpg?size=809x1080&quality=96&sign=9f0756d1180a42bf8afd9396f7ee8768&type=album" alt="myAvatar">
-      <p>My Name is Bejenari Daniil ,i have 27 years old.I wont to be a web developer.</p>
-    </section>
+   
+    <div class="leftside">
+        <section id="about">
+            <h2>About</h2>
+            <div class="profiletext">
+                <div class="imgbx">
+                    <img width="280" height="300" src="https://sun9-16.userapi.com/impg/dTiRuK2d2Km-1OssvmjZOtT58vwC7FlfXBcWiA/Jot2yeEMbO8.jpg?size=809x1080&quality=96&sign=9f0756d1180a42bf8afd9396f7ee8768&type=album" alt="myAvatar">
+                </div>
+                <h2>My Name is Bejenari Daniil<br>i have 27 years old.<br><span>I wont to be a web developer.</span></h2>
+            </div>
+          </section>
+
+          <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JS</li>
+              <li>PHP</li>
+              <li>Laravel</li>
+              <li>Bootstrap</li>
+            </ul>
+          </section>
+        
+          <section id="Contact">
     
-
-    <section id="skills">
-      <h2>Skills</h2>
-      <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JS</li>
-        <li>PHP</li>
-        <li>Laravel</li>
-        <li>Bootstrap</li>
-      </ul>
-    </section>
-
-    <section id="experience">
-      <h2>Experience</h2>
-      <table>
-        <thead>
-          <tr>
-            <th>Period</th>
-            <th>Place</th>
-            <th>Position/Description</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>2014-2021</td>
-            <td>Pivzavod</td>
-            <td><section>
-              <h3>
-                Administator
-              </h3>
-              <p>Был управляющим магазина , есть большой опыт по ведению подобного бизнеса , начиная от заказа товара , заканчивая бехгалтерией.</p>
-            </section>
-          </td>
-          </tr>
-          <tr>
-            <td>2021-Present</td>
-            <td>Gotter</td>
-            <td>
-              <details>
-                  <summary>
-                    Beer equipment technician
-                  </summary>
-              <p>Занимаюсь обслуживанием систем ро розливу пива , налаживание работы холодильного оборудования , проверка качества пенного напитка , решение и устранение проблем связанных с розливом пива в бутылки ПЭТ</p>
-            </details>
-          </td>
-          </tr>
-        </tbody>
-      </table>
-    </section>
-
-    <section id="Contact">
-
-      <h2>Contact</h2>
-      <ul>
-        <li>Tel: <a href="+37361108034">Call me</a></li>
-        <li>Email:help204@bk.ru</li>
-        <li>Address 
-          <address>
-            Organization Name: Bejenari Daniil <br>
-            Web Site: 
-            <a href="https://Daniil.md/">
-            Daniil.md</a><br>
-            visit us:<br>
-            www.daniil.md<br>
-            Moldova Republic Off <br>
-            Chishinau , r.Ciocana
-        </address>
-        </li>
-        <li>Website Link: http://daniil.md</li>
-      </ul>
-    </section>
-
-    <section id="Hobby">
-      <h2>Hobby</h2>
-
-      <p>Мне нравится слушать музыку , и смотреть фильмы.</p>
-      <p>Изучаю английский язык , интересно изучать веб разработку сайтов и их устройство.</p>
-
-    </section>
+            <h2>Contact</h2>
+            <ul>
+              <li>Tel: <a href="+37361108034">Call me</a></li>
+              <li>Email:help204@bk.ru</li>
+              <li>Address 
+                <address>
+                  Organization Name: Bejenari Daniil <br>
+                  Web Site: 
+                  <a href="https://Daniil.md/">
+                  Daniil.md</a><br>
+                  visit us:<br>
+                  www.daniil.md<br>
+                  Moldova Republic Off <br>
+                  Chishinau , r.Ciocana
+              </address>
+              </li>
+              <li>Website Link: http://daniil.md</li>
+            </ul>
+          </section>
+    </div>
     
-    <section id="Area">
-      <h2>Area</h2>
+    
+    
+    
+    <div class="rightside">
 
-      <map name="infographic">
-        <area shape="poly" coords="130,147,200,107,254,219,130,228"
-              href="https://developer.mozilla.org/docs/Web/HTML"
-              target="_blank" alt="HTML" />
-        <area shape="poly" coords="130,147,130,228,6,219,59,107"
-              href="https://developer.mozilla.org/docs/Web/CSS"
-              target="_blank" alt="CSS" />
-        <area shape="poly" coords="130,147,200,107,130,4,59,107"
-              href="https://developer.mozilla.org/docs/Web/JavaScript"
-              target="_blank" alt="JavaScript" />
-    </map>
-    <img usemap="#infographic" src="https://interactive-examples.mdn.mozilla.net/media/examples/mdn-info2.png" alt="MDN infographic" />
+        <section id="experience">
+            <h2>Experience</h2>
+            <table>
+              <thead>
+                <tr>
+                  <th>Period</th>
+                  <th>Place</th>
+                  <th>Position/Description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>2014-2021</td>
+                  <td>Pivzavod</td>
+                  <td><section>
+                    <h3>
+                      Administator
+                    </h3>
+                    <p>Был управляющим магазина , есть большой опыт по ведению подобного бизнеса , начиная от заказа товара , заканчивая бехгалтерией.</p>
+                  </section>
+                </td>
+                </tr>
+                <tr>
+                  <td>2021-Present</td>
+                  <td>Gotter</td>
+                  <td>
+                    <details>
+                        <summary>
+                          Beer equipment technician
+                        </summary>
+                    <p>Занимаюсь обслуживанием систем ро розливу пива , налаживание работы холодильного оборудования , проверка качества пенного напитка , решение и устранение проблем связанных с розливом пива в бутылки ПЭТ</p>
+                  </details>
+                </td>
+                </tr>
+              </tbody>
+            </table>
+          </section>
 
-    </section>
-
-    <section id="Social_networks">
-      <h2>My Social networks</h2>
-
-      <map name="vk-facebook">
-        <area shape="circle" coords="75,75,75" 
-              href="https://vk.com/iddan1k"
-              target="_blank" alt="vk">
-        <area shape="circle" coords="275,75,75"
-              href="https://www.facebook.com/profile.php?id=100014354653449"
-              target="_blank" alt="facebook">
-      </map>
-      <img usemap="#vk-facebook" src="https://russiansearchmarketing.com/wp-content/uploads/VK-FB-Logos1.jpg" alt="vkfacebookpic">
+          <section id="Hobby">
+            <h2>Hobby</h2>
       
-  
-    </section> 
+            <p>Мне нравится слушать музыку , и смотреть фильмы2.</p>
+            <p>Изучаю английский язык , интересно изучать веб разработку сайтов и их устройство.</p>
+      
+          </section>
+          
+          <section id="Area">
+            <h2>Area</h2>
+      
+            <map name="infographic">
+              <area shape="poly" coords="130,147,200,107,254,219,130,228"
+                    href="https://developer.mozilla.org/docs/Web/HTML"
+                    target="_blank" alt="HTML" />
+              <area shape="poly" coords="130,147,130,228,6,219,59,107"
+                    href="https://developer.mozilla.org/docs/Web/CSS"
+                    target="_blank" alt="CSS" />
+              <area shape="poly" coords="130,147,200,107,130,4,59,107"
+                    href="https://developer.mozilla.org/docs/Web/JavaScript"
+                    target="_blank" alt="JavaScript" />
+          </map>
+          <img usemap="#infographic" src="https://interactive-examples.mdn.mozilla.net/media/examples/mdn-info2.png" alt="MDN infographic" />
+      
+          </section>
+      
+          <section id="Social_networks">
+            <h2>My Social networks</h2>
+      
+            <map name="vk-facebook">
+              <area shape="circle" coords="75,75,75" 
+                    href="https://vk.com/iddan1k"
+                    target="_blank" alt="vk">
+              <area shape="circle" coords="275,75,75"
+                    href="https://www.facebook.com/profile.php?id=100014354653449"
+                    target="_blank" alt="facebook">
+            </map>
+            <img usemap="#vk-facebook" src="https://russiansearchmarketing.com/wp-content/uploads/VK-FB-Logos1.jpg" alt="vkfacebookpic">
+            
+        
+          </section> 
+      
+          <section id="Video">
+            <h2>Видеоролик который мне нравится</h2>
+            <iframe width="500" height="350" src="https://www.youtube.com/embed/59LMreYagUU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      
+    </div>
 
-    <section id="Video">
-      <h2>Видеоролик который мне нравится</h2>
-      <iframe width="500" height="350" src="https://www.youtube.com/embed/59LMreYagUU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
   </main>
   <footer>
@@ -154,4 +172,3 @@
     </div>
   </footer> 
 </body>
-</html>
