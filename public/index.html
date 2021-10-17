@@ -1,174 +1,326 @@
 <!DOCTYPE html>
 <html lang="ru">
-    <head>
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
 <title>CV Bejneari Daniil</title>
-<link rel="stylesheet" href="style.css"> 
-<body style="margin-bottom: 400px;">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+  integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="./styles/style.css" />
+
+<body>
+
   <header>
     <h1>CV / Portofolio</h1>
     <nav>
       <ul>
-       <li>
-         <li><a href="#about">About</a></li>
-         <li><a href="#skills">Skills</a></li>
-         <li><a href="#experience">Experience</a></li>
-         <li><a href="#Contact">Contact</a></li>
-         <li><a href="#Hobby">Hobby</a></li>
-         <li><a href="#Area">Area</a></li>
-         <li><a href="#Social_networks">Social networks</a></li>
-         <li><a href="#Video">Video example</a></li>
-       <li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#Contact">Contact</a></li>
+        <li><a href="#Hobby">Hobby</a></li>
+        <li><a href="#Area">Area</a></li>
+        <li><a href="#Social_networks">Social networks</a></li>
+        <li><a href="#Video">Video example</a></li>
+        <li><a href="#Education">Education</a></li>
+        <li>
       </ul>
     </nav>
   </header>
-  <main>
-   
-    <div class="leftside">
-        <section id="about">
-            <h2>About</h2>
-            <div class="profiletext">
-                <div class="imgbx">
-                    <img width="280" height="300" src="https://sun9-16.userapi.com/impg/dTiRuK2d2Km-1OssvmjZOtT58vwC7FlfXBcWiA/Jot2yeEMbO8.jpg?size=809x1080&quality=96&sign=9f0756d1180a42bf8afd9396f7ee8768&type=album" alt="myAvatar">
-                </div>
-                <h2>My Name is Bejenari Daniil<br>i have 27 years old.<br><span>I wont to be a web developer.</span></h2>
-            </div>
-          </section>
 
-          <section id="skills">
-            <h2>Skills</h2>
-            <ul>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>JS</li>
-              <li>PHP</li>
-              <li>Laravel</li>
-              <li>Bootstrap</li>
-            </ul>
-          </section>
-        
-          <section id="Contact">
-    
-            <h2>Contact</h2>
-            <ul>
-              <li>Tel: <a href="+37361108034">Call me</a></li>
-              <li>Email:help204@bk.ru</li>
-              <li>Address 
-                <address>
+  <main>
+
+    <div class="leftside">
+      <section id="about">
+        <div class="avatar">
+          <img class="avatar-img" src="img/avatar.jpg" alt="My avatar">
+        </div>
+        <div class="profiletext">
+          <h2>My Name is Bejenari Daniil i have 27 years old.</h2>
+          <p>I wont to be a web developer.</p>
+        </div>
+      </section>
+
+      <section id="skills">
+        <div class="profiletext language">
+          <h3 class="title">Skills</h3>
+          <ul>
+            <li>
+              <span class="text">HTML</span>
+              <span class="percent">
+                <div style="width: 60%;"></div>
+              </span>
+            </li>
+            <li>
+              <span class="text">CSS</span>
+              <span class="percent">
+                <div style="width: 25%;"></div>
+              </span>
+            </li>
+            <li>
+              <span class="text">JavaScript</span>
+              <span class="percent">
+                <div style="width: 5%;"></div>
+              </span>
+            </li>
+            <li>
+              <span class="text">PHP</span>
+              <span class="percent">
+                <div style="width: 5%;"></div>
+              </span>
+            </li>
+            <li>
+              <span class="text">Laravel</span>
+              <span class="percent">
+                <div style="width: 5%;"></div>
+              </span>
+            </li>
+            <li>
+              <span class="text">Bootstrap</span>
+              <span class="percent">
+                <div style="width: 15%;"></div>
+              </span>
+            </li>
+          </ul>
+        </div>
+
+      </section>
+
+      <div class="contact-info">
+        <h3 class="title">Contact Info</h3>
+        <section id="Contact">
+
+          <ul>
+            <li>
+              <span class="icon"><i class="fa fa-phone" aria-hidden="true"></i></span>
+              <span class="text">Tel:+37361108034</span>
+            </li>
+            <li>
+              <span class="icon"><i class="fa fa-envelope-open-o" aria-hidden="true"></i></span>
+              <span class="text">Email:help204@bk.ru</span>
+            </li>
+            <li>
+              <address>
+                <span class="icon"><i class="fa fa-globe" aria-hidden="true"></i></span>
+                <span class="text">
+                  Address <br>
                   Organization Name: Bejenari Daniil <br>
-                  Web Site: 
-                  <a href="https://Daniil.md/">
                   Daniil.md</a><br>
                   visit us:<br>
                   www.daniil.md<br>
-                  Moldova Republic Off <br>
+                  Republic of Moldova <br>
                   Chishinau , r.Ciocana
+                </span>
               </address>
-              </li>
-              <li>Website Link: http://daniil.md</li>
-            </ul>
-          </section>
+            </li>
+            <li>
+              <span class="icon"><i class="fa fa-linkedin-square" aria-hidden="true"></i> </span>
+              <span class="text">https://Daniil.md </span>
+            </li>
+          </ul>
+          <br>
+          <br>
+        </section>
+      </div>
+
+      <div class="profiletext education">
+        <h3 class="title">Education</h3>
+        <section id="Education">
+          <ul>
+            <li>
+              <h5>2014-2017</h5>
+              <h4>Russian Language and Literature</h4>
+              <h4>Slavonic University</h4>
+            </li>
+            <li>
+              <h5>2012-2014</h5>
+              <h4>Economist Accountant</h4>
+              <h4>Moscow College</h4>
+            </li>
+            <li>
+              <h5>2000-2012</h5>
+              <h4>Bachelor</h4>
+              <h4>Liceum "Olimp"</h4>
+            </li>
+          </ul>
+      </div>
+
+      <div class="profiletext language">
+        <h3 class="title">Languages</h3>
+        <ul>
+          <li>
+            <span class="text">English</span>
+            <span class="percent">
+              <div style="width: 70%;"></div>
+            </span>
+          </li>
+          <li>
+            <span class="text">Russian</span>
+            <span class="percent">
+              <div style="width: 95%;"></div>
+            </span>
+          </li>
+          <li>
+            <span class="text">Romanian</span>
+            <span class="percent">
+              <div style="width: 75%;"></div>
+            </span>
+          </li>
+        </ul>
+      </div>
+
     </div>
-    
-    
-    
-    
+
+
+
+
     <div class="rightside">
 
-        <section id="experience">
-            <h2>Experience</h2>
-            <table>
-              <thead>
-                <tr>
-                  <th>Period</th>
-                  <th>Place</th>
-                  <th>Position/Description</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>2014-2021</td>
-                  <td>Pivzavod</td>
-                  <td><section>
-                    <h3>
-                      Administator
-                    </h3>
-                    <p>Был управляющим магазина , есть большой опыт по ведению подобного бизнеса , начиная от заказа товара , заканчивая бехгалтерией.</p>
-                  </section>
-                </td>
-                </tr>
-                <tr>
-                  <td>2021-Present</td>
-                  <td>Gotter</td>
-                  <td>
-                    <details>
-                        <summary>
-                          Beer equipment technician
-                        </summary>
-                    <p>Занимаюсь обслуживанием систем ро розливу пива , налаживание работы холодильного оборудования , проверка качества пенного напитка , решение и устранение проблем связанных с розливом пива в бутылки ПЭТ</p>
-                  </details>
-                </td>
-                </tr>
-              </tbody>
-            </table>
-          </section>
 
-          <section id="Hobby">
-            <h2>Hobby</h2>
-      
-            <p>Мне нравится слушать музыку , и смотреть фильмы2.</p>
-            <p>Изучаю английский язык , интересно изучать веб разработку сайтов и их устройство.</p>
-      
-          </section>
-          
-          <section id="Area">
-            <h2>Area</h2>
-      
-            <map name="infographic">
-              <area shape="poly" coords="130,147,200,107,254,219,130,228"
-                    href="https://developer.mozilla.org/docs/Web/HTML"
-                    target="_blank" alt="HTML" />
-              <area shape="poly" coords="130,147,130,228,6,219,59,107"
-                    href="https://developer.mozilla.org/docs/Web/CSS"
-                    target="_blank" alt="CSS" />
-              <area shape="poly" coords="130,147,200,107,130,4,59,107"
-                    href="https://developer.mozilla.org/docs/Web/JavaScript"
-                    target="_blank" alt="JavaScript" />
-          </map>
-          <img usemap="#infographic" src="https://interactive-examples.mdn.mozilla.net/media/examples/mdn-info2.png" alt="MDN infographic" />
-      
-          </section>
-      
-          <section id="Social_networks">
-            <h2>My Social networks</h2>
-      
-            <map name="vk-facebook">
-              <area shape="circle" coords="75,75,75" 
-                    href="https://vk.com/iddan1k"
-                    target="_blank" alt="vk">
-              <area shape="circle" coords="275,75,75"
-                    href="https://www.facebook.com/profile.php?id=100014354653449"
-                    target="_blank" alt="facebook">
-            </map>
-            <img usemap="#vk-facebook" src="https://russiansearchmarketing.com/wp-content/uploads/VK-FB-Logos1.jpg" alt="vkfacebookpic">
-            
-        
-          </section> 
-      
-          <section id="Video">
-            <h2>Видеоролик который мне нравится</h2>
-            <iframe width="500" height="350" src="https://www.youtube.com/embed/59LMreYagUU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      
+      <div class="about">
+        <section id="experience">
+
+          <h2 class="title2">Experience</h2>
+          <div class="box">
+            <div class="year_company">
+              <h5>2012-2014</h5>
+              <h5>Colibri</h5>
+            </div>
+            <div class="text">
+              <h4>Manager on factory</h4>
+              <p>Занимался подготовкой товаров со склада , проверял надлежащее качество , отпускал товар со склада.</p>
+            </div>
+          </div>
+
+          <div class="box">
+
+            <div class="year_company">
+              <h5>2014-2021</h5>
+              <h5>Pivzavod</h5>
+            </div>
+            <div class="text">
+              <h4>Administator</h4>
+              <p>Был управляющим магазина , есть большой опыт по ведению подобного бизнеса , начиная от заказа товара ,
+                заканчивая бехгалтерией.</p>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="year_company">
+              <h5>2021-Present</h5>
+              <h5>Gotter</h5>
+            </div>
+            <div class="text">
+              <h4>Beer equipment technician</h4>
+              <p>Занимаюсь обслуживанием систем ро розливу пива , налаживание работы холодильного оборудования ,
+                проверка качества пенного напитка , решение и устранение проблем связанных с розливом пива в бутылки ПЭТ
+              </p>
+            </div>
+
+          </div>
+
+      </div>
+      </section>
+
+
+
+      <section id="Hobby">
+        <h2>Hobby</h2>
+
+        <p>Мне нравится слушать музыку , и смотреть фильмы2.</p>
+        <p>Изучаю английский язык , интересно изучать веб разработку сайтов и их устройство.</p>
+
+      </section>
+
+      <section id="Area">
+        <h2>Area</h2>
+
+        <map name="infographic">
+          <area shape="poly" coords="130,147,200,107,254,219,130,228" href="https://developer.mozilla.org/docs/Web/HTML"
+            target="_blank" alt="HTML" />
+          <area shape="poly" coords="130,147,130,228,6,219,59,107" href="https://developer.mozilla.org/docs/Web/CSS"
+            target="_blank" alt="CSS" />
+          <area shape="poly" coords="130,147,200,107,130,4,59,107"
+            href="https://developer.mozilla.org/docs/Web/JavaScript" target="_blank" alt="JavaScript" />
+        </map>
+        <img usemap="#infographic" src="https://interactive-examples.mdn.mozilla.net/media/examples/mdn-info2.png"
+          alt="MDN infographic" />
+
+      </section>
+
+      </section>
+
+      <section id="Video">
+        <h2>Видеоролик который мне нравится</h2>
+        <iframe width="500" height="350" src="https://www.youtube.com/embed/59LMreYagUU" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+      </section>
+      <form>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputFullName1" class="form-label">Full Name</label>
+          <input type="FullName" class="form-control" id="exampleInputFullName1">
+        </div>
+        <div class="input-group">
+          <span class="input-group-text">With textarea</span>
+          <textarea class="form-control" aria-label="With textarea"></textarea>
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+        <button type="button" class="btn btn-primary" id="liveToastBtn">Submit</button>
+
+
+        <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+          <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header">
+              <strong class="me-auto">Message</strong>
+
+              <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+            <div class="toast-body">
+              Thank you for your message!
+            </div>
+          </div>
+        </div>
+      </form>
+
     </div>
+
+    </div>
+
 
 
   </main>
   <footer>
-   <div align="center">
-     <h5>Copyright<sub>(c) 2021</sub>, Devepopmentaid</h5>
+    <div class="social-network">
+      <map name="vk-facebook">
+        <area shape="circle" coords="75,75,75" href="https://vk.com/iddan1k" target="_blank" alt="vk">
+        <area shape="circle" coords="275,75,75" href="https://www.facebook.com/profile.php?id=100014354653449"
+          target="_blank" alt="facebook">
+      </map>
+      <img usemap="#vk-facebook" src="https://russiansearchmarketing.com/wp-content/uploads/VK-FB-Logos1.jpg"
+        alt="vkfacebookpic">
     </div>
-  </footer> 
+    <p>Copyright(c) 2021 DevepopmentAid</p>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
+  <script src="./js/js.js"></script>
 </body>
+
+</html>
